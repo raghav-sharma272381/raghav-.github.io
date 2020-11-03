@@ -1,0 +1,178 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, Sans-serif;
+  background-color: black;
+}
+/* navbar section*/
+.navbar {
+  background-color: black;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4c4b4b;
+  color: white;
+}
+/* navbar section */
+
+/* mainpage */
+.mainpage {
+  background-color: #f0f0f0;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 60px 0px;
+  flex-direction: column;
+  display: flex;
+}
+.flex1 {
+  width: 100%;
+  border: 1px solid black;
+}
+
+div .logo {
+  width: 155px;
+  height: 155px;
+  padding: 00px;
+  background-color: #000000;
+  margin: 10px 10px 30px 30px;
+  align-self: center;
+}
+div .coffeimg {
+  width: 90%;
+  height: auto;
+  padding: 10px;
+  background-color: #000000;
+  margin: 10px;
+  float: left;
+}
+div .dishes {
+  width: 90%;
+  height: auto;
+  padding: 10px;
+  background-color: #000000;
+  text-align: center;
+  margin: 10px;
+  font-size: 30px;
+  color: white;
+  float: left;
+}
+.pad {
+  background-color: #000000;
+  height: 300px;
+  margin: 10px;
+}
+.pad li {
+  color: #fff;
+}
+div .timings {
+  width: 40%;
+  height: auto;
+  padding: 10px;
+  background-color: #000000;
+  text-align: center;
+  margin: 10px;
+  font-size: 35px;
+  color: white;
+  float: left;
+}
+
+.row {
+  display: flex;
+}
+.images {
+  display: block;
+  width: 100%;
+}
+
+.pad {
+  width: 100%;
+  display: inline-block;
+  background-color: #000000;
+}
+
+.pad ul{
+  text-align: left;
+    font-size: 25px;
+
+}
+
+ul li span {
+  float: left;
+  width: 200px;
+  font-size: 25px;
+  
+  
+}
+
+.menu {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 35px;
+  color: white;
+}
+
+/* mainpage */
+
+/* footer*/
+
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: black;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+}
+
+.footer .col ul li:hover {
+  color: white;
+}
+
+/* footer */
